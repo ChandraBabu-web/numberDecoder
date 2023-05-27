@@ -3,18 +3,42 @@ body {
     text-align: center;
 }
 
+language-select {
+    background-color: #fff;
+    border: 2px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+    padding: 10px;
+    width: 200px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30" width="25" height="25"><path d="M 0 9 L 30 9 L 15 24 Z" fill="#333333"/></svg>');
+    background-repeat: no-repeat;
+    background-position: calc(100% - 10px) center;
+}
+
 h1 {
     margin-top: 30px;
+    font-size: 40px;
+}
+
+label {
+    margin-top: 20px;
+    font-size: 20px;
 }
 
 p {
     margin-top: 20px;
+    font-size: 20px;
+    font-weight: 600;
 }
 
 #telugu-number {
-    font-size: 50px;
+    font-size: 60px;
     font-weight: bold;
     margin-top: 20px;
+    color: green;
 }
 
 form {
@@ -46,4 +70,25 @@ button {
     margin-top: 20px;
     font-size: 18px;
     font-weight: bold;
+}
+
+/* CSS for dropdown */
+select {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    color: #333;
+    display: inline-block;
+    font-size: 16px;
+    height: 40px;
+    line-height: 40px;
+    padding: 0 10px;
+    transition: all 0.3s;
+    width: 200px;
+}
+
+select:focus {
+    border-color: #4a90e2;
+    box-shadow: 0 0 5px rgba(74, 144, 226, 0.5);
+    outline: none;
 }
